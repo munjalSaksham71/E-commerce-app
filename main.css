@@ -1,0 +1,20 @@
+header {
+    background-color: #343a40;;
+    color: #ffffff;
+}
+
+.hero {
+    width: 100vw;
+    height: 80vh;
+}
+
+.products {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1.25rem;
+    margin: 1rem;
+}
+
+.grey-text {
+    color: #343a40;
+}
