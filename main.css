@@ -1,6 +1,11 @@
+:root {
+    --dark-grey: #343a40;
+    --white: #ffffff;
+}
+
 header {
-    background-color: #343a40;;
-    color: #ffffff;
+    background-color: var(--dark-grey);;
+    color: var(--white);
 }
 
 .hero {
