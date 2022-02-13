@@ -26,6 +26,7 @@ header {
 
 .white-text {
     color: var(--white);
+    text-decoration: none;
 }
 
 .wrap{
