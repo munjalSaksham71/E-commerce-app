@@ -1,7 +1,7 @@
 .container {
     display: flex;
     flex-flow: row wrap;
-    gap: 10px;
+    gap: 0.75rem;
 }
 
 .small_product_img {
@@ -19,7 +19,7 @@ select {
 }
 
 .product_delete {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .cart_screen {
