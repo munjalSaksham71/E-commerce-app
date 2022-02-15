@@ -7,25 +7,23 @@
     <link rel="stylesheet" href="https://regalUI.netlify.app/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../main.css">
-    <title>E-commerce | Login</title>
+    <title>E-Commerce | Wishlist</title>
 </head>
 <body>
     <header class="header">
-        <h1 class="heading"><a class="white-text" href="../index.html">E-Store</a></h1>
+        <h1 class="heading">E-Store</h1>
         <div class="topbar_link">
             <a href="./wishtlist.html" class="header_link link white-text"><i class="fa fa-heart-o mr-1"></i>Wishlist</a>
             <a href="./cart.html" class="header_link link white-text"><i class="fa fa-shopping-cart mr-1"></i> Cart</a>
             <a href="./signin.html" class="header_link link white-text"><i class="fa fa-sign-in mr-1"></i>Signin</a>
         </div>  
     </header> <hr>
-    <form class="wrap">
-        <div class="heading1 mt-3">SIGN IN</div>
-        <label class="mt-5" for="email">Email Address</label>
-        <input class="mt-1" type="email" placeholder="Enter your email" />
-        <label  class="mt-3" for="password">Password</label>
-        <input class="mt-1" type="password" placeholder="Enter your password" />
-        <button class="btn btn-dark-grey mt-2"> Sign In</button>
-        <span class="grey-text mt-2">New Customer? <a href="./signup.html" class="link bolder grey-text">Register here</a></span>
-    </form>  
+    <div class="heading2 m-3">Your Wishlist</div>
+    <div class="container cart_screen">
+        <img class="small_product_img" src="../assets/chelsea.jpeg"></img>
+        <div class="product_desc m-2 mt-3">CHELSEA BOOTS By&nbsp;H&M</div>
+        <div class="product_price mt-4 ml-5">₹2399/-</div>
+        <button class="btn mt-2 ml-5 "> Move&nbsp;to&nbsp;Cart </button>
+        <div class="product_delete mt-4 ml-5"><i class="fa fa-heart"></i></div>
+    </div>
 </body>
-</html>
