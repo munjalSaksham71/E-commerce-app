@@ -1,4 +1,5 @@
 @import url('./pages/cart.css');
+@import url('./pages/wishlist.css');
 
 :root {
     --dark-grey: #343a40;
@@ -20,6 +21,7 @@ header {
     flex-flow: row wrap;
     gap: 1.25rem;
     margin: 1rem;
+    justify-content: center;
 }
 
 .grey-text {
@@ -45,9 +47,12 @@ input {
 .btn-dark-grey{
     background-color: var(--dark-grey);
     color: var(--white);
-    width: 10rem;
 }
 
 .link:hover {
     text-decoration: underline;
+}
+
+.btn-10 {
+    width: 10rem;
 }
