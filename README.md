@@ -7,7 +7,7 @@ Buy Here 👉 [Click](https://regalshoes.netlify.app/)
 
 # Components: 
 1.Landing Page  
-2.Login Page  
-3.Signup Page  
-4.Wishilist PAge  
-5.Cart Page
+2.Cart Page
+3.Wishilist PAge 
+4.Login Page  
+5.Signup Page  
