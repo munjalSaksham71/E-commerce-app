@@ -1,0 +1,14 @@
+.sidebar {
+    position: fixed;
+    width: 13rem;
+    background-color: var(--dark-grey);
+    height: 75vh;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+}
+
+.product-title {
+    margin-left: 14rem;
+}
