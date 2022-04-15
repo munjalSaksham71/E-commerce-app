@@ -20,7 +20,6 @@ header {
     display: flex;
     flex-flow: row wrap;
     gap: 1.25rem;
-    margin-top: 1rem;
     justify-content: center;
     margin-left: 13rem;
 }
